@@ -1,4 +1,4 @@
-from nonebot.plugin import PluginMetadata
+#from nonebot.plugin import PluginMetadata
 
 from .__main__ import *  # type:ignore
 
@@ -25,6 +25,7 @@ __plugin_settings__ = {
     "cost_gold": 0,  # 该功能需要花费的金币
 }
 __version__ = "0.3.0"
+'''
 __plugin_meta__ = PluginMetadata(
     name="BAWiki",
     description="碧蓝档案Wiki插件",
@@ -80,3 +81,4 @@ __plugin_meta__ = PluginMetadata(
         "menu_template": "default",
     },
 )
+'''
